@@ -1,64 +1,72 @@
-# Robot Fleet Management System 
+# Robot Fleet Management System
 
 ## Overview
 
-Robot Fleet Management System is a Python-based command-line application that simulates a robot control center for managing and monitoring a fleet of robots.
+Robot Fleet Management System is a Python command-line application that simulates a robot control center for managing and monitoring a fleet of robots.
 
-The application allows users to analyze robot health, monitor sensor conditions, create missions, view assigned missions, and generate fleet reports. The project focuses on writing structured Python code, implementing business logic, and validating functionality through automated testing.
+The application allows users to monitor robot health, analyze sensor data, assign missions, and generate fleet reports. This project demonstrates Python programming, object-oriented design, business logic implementation, and automated testing.
 
 ---
 
 ## Features
 
-### Robot Health Analysis
-
-- Checks robot operational status
-- Identifies robots requiring attention
-- Detects low battery conditions
-- Provides health status reports
-
-### Sensor Analysis
-
-- Monitors sensor conditions
-- Detects normal and warning sensor states
-- Generates sensor analysis reports
-
-### Mission Management
-
-- Creates missions for available robots
-- Searches robots by name
-- Validates robot readiness before assigning missions
-- Prevents assignment when:
-  - Robot is under maintenance
-  - Robot is offline
-  - Battery level is critically low
-
-### Fleet Report
-
-Generates a summary report containing:
-
-- Total robots
-- Active robots
-- Robots needing attention
-- Low battery robots
-- Assigned missions
+* Monitor robot health and battery status
+* Analyze sensor conditions
+* Create and manage robot missions
+* Search robots by name
+* Validate robot readiness before mission assignment
+* Generate fleet summary reports
+* Automated testing with **pytest**
 
 ---
 
-# Testing
+## Technologies Used
 
-The project includes automated tests using **pytest**.
+* Python
+* Object-Oriented Programming (OOP)
+* Pytest
+* Git & GitHub
 
-Test cases verify:
+---
 
-- Healthy robot detection
-- Low battery detection
-- Normal sensor conditions
-- Sensor warning detection
-- Fleet report generation
-- Empty fleet handling
+## Project Structure
 
-Run tests using:
+```text
+Robot-Fleet-Management-System/
+├── robot_fleet/
+├── tests/
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Testing
+
+The project includes automated tests using **pytest** to verify:
+
+* Robot health analysis
+* Battery status detection
+* Sensor condition analysis
+* Mission assignment logic
+* Fleet report generation
+* Empty fleet handling
+
+Run the tests with:
 
 ```bash
 pytest
+```
+
+---
+
+## Learning Outcomes
+
+Through this project, I learned how to:
+
+* Build modular Python applications
+* Apply object-oriented programming principles
+* Implement business logic and validation
+* Write automated tests using pytest
+* Organize Python projects using a structured layout
