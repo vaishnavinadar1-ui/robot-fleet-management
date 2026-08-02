@@ -1,4 +1,4 @@
-# Robot Fleet Management System 🤖
+# Robot Fleet Management System 
 
 ## Overview
 
@@ -10,12 +10,12 @@ The system allows users to monitor robot health, analyze sensor conditions, crea
 
 ## Features
 
-### 🤖 Robot Health Analysis
+###  Robot Health Analysis
 - Checks robot status and battery levels
 - Identifies robots requiring attention
 - Detects low battery conditions
 
-### 📡 Sensor Analysis
+###  Sensor Analysis
 - Monitors sensor health status
 - Detects sensor warnings
 - Provides sensor condition reports
@@ -28,7 +28,7 @@ The system allows users to monitor robot health, analyze sensor conditions, crea
   - Offline robots
   - Critically low battery robots
 
-### 📊 Fleet Report
+###  Fleet Report
 Generates a summary report containing:
 - Total number of robots
 - Active robots
