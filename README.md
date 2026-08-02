@@ -29,19 +29,6 @@ The application allows users to monitor robot health, analyze sensor data, assig
 
 ---
 
-## Project Structure
-
-```text
-Robot-Fleet-Management-System/
-├── robot_fleet/
-├── tests/
-├── main.py
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## Testing
 
 The project includes automated tests using **pytest** to verify:
