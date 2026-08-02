@@ -2,135 +2,50 @@
 
 ## Overview
 
-Robot Fleet Management System is a relational database project designed to manage and organize information about a fleet of robots. The system stores and tracks robot details, locations, missions, sensors, and sensor readings using a structured SQL database.
+Robot Fleet Management System is a Python-based application designed to simulate a control center for managing a fleet of robots.
 
-This project demonstrates database design skills, SQL programming, relational database concepts, and the ability to model real-world systems through data relationships.
-
----
-
-## Project Purpose
-
-Managing a fleet of robots requires an efficient system to store and access important information such as:
-
-- Robot details and status
-- Robot locations
-- Mission assignments
-- Sensor information
-- Sensor-generated readings
-
-This database provides a structured way to organize this information while maintaining data consistency and relationships between different entities.
+The system allows users to monitor robot health, analyze sensor conditions, create missions, view assigned missions, and generate fleet reports. The project demonstrates software development concepts such as functions, data structures, conditional logic, and modular programming.
 
 ---
 
-# Features
+## Features
 
-- Store robot information
-- Track robot locations
-- Manage robot missions
-- Store sensor details
-- Record sensor readings
-- Retrieve information using SQL queries
-- Maintain relationships using primary keys and foreign keys
-- Organize complex data using relational database principles
+### 🤖 Robot Health Analysis
+- Checks robot status and battery levels
+- Identifies robots requiring attention
+- Detects low battery conditions
 
----
+### 📡 Sensor Analysis
+- Monitors sensor health status
+- Detects sensor warnings
+- Provides sensor condition reports
 
-# Database Design
+### 🎯 Mission Management
+- Assign missions to available robots
+- Validates robot availability before assignment
+- Prevents mission assignment for:
+  - Robots under maintenance
+  - Offline robots
+  - Critically low battery robots
 
-The database is built using a relational model with the following entities:
-
-## Robots
-
-Stores information about each robot.
-
-**Includes:**
-- Robot ID
-- Robot name
-- Model
-- Status
-- Battery level
-- Location ID
-
----
-
-## Locations
-
-Stores information about where robots are located.
-
-**Includes:**
-- Location ID
-- Location name
-- Coordinates
-- Area details
+### 📊 Fleet Report
+Generates a summary report containing:
+- Total number of robots
+- Active robots
+- Robots needing attention
+- Low battery robots
+- Assigned missions
 
 ---
 
-## Missions
+## Technologies Used
 
-Stores tasks assigned to robots.
-
-**Includes:**
-- Mission ID
-- Mission name
-- Description
-- Status
-- Start date
-- End date
-
----
-
-## Sensors
-
-Stores sensors installed on robots.
-
-**Includes:**
-- Sensor ID
-- Robot ID
-- Sensor type
-- Sensor status
-
----
-
-## Sensor Readings
-
-Stores data collected from sensors.
-
-**Includes:**
-- Reading ID
-- Sensor ID
-- Reading value
-- Timestamp
-
----
-
-# Entity Relationship Diagram (ERD)
-
-The ER diagram represents the structure and relationships between database entities.
-
-![Robot Fleet Management ER Diagram](robot-fleet-erd.png)
-
----
-
-# Database Relationships
-
-The system includes the following relationships:
-
-- A robot can have multiple sensors.
-- A robot can be assigned multiple missions.
-- A location can contain multiple robots.
-- A sensor can generate multiple readings.
-- Primary keys uniquely identify records.
-- Foreign keys maintain relationships between tables.
-
----
-
-# Technologies Used
-
-- SQL
-- SQLite
-- Relational Database Design
-- Entity Relationship Diagrams (ERD)
+- Python 3
+- Data Structures (Lists & Dictionaries)
+- Functions
+- Conditional Logic
+- Loops
+- Input Validation
 - Git & GitHub
 
 ---
-
