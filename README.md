@@ -4,7 +4,7 @@
 
 Robot Fleet Management System is a Python command-line application that simulates a robot control center for managing and monitoring a fleet of robots.
 
-The application allows users to monitor robot health, analyze sensor data, assign missions, and generate fleet reports. This project demonstrates Python programming, object-oriented design, business logic implementation, and automated testing.
+The application enables users to monitor robot health, analyze sensor data, assign missions, and generate fleet reports. This project demonstrates Python programming, object-oriented programming (OOP), business logic implementation, and automated testing.
 
 ---
 
@@ -40,7 +40,7 @@ The project includes automated tests using **pytest** to verify:
 * Fleet report generation
 * Empty fleet handling
 
-Run the tests with:
+Run the tests using:
 
 ```bash
 pytest
@@ -55,5 +55,5 @@ Through this project, I learned how to:
 * Build modular Python applications
 * Apply object-oriented programming principles
 * Implement business logic and validation
-* Write automated tests using pytest
+* Write automated tests using **pytest**
 * Organize Python projects using a structured layout
