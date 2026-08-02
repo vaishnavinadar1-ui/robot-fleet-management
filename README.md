@@ -20,7 +20,7 @@ The system allows users to monitor robot health, analyze sensor conditions, crea
 - Detects sensor warnings
 - Provides sensor condition reports
 
-### 🎯 Mission Management
+###  Mission Management
 - Assign missions to available robots
 - Validates robot availability before assignment
 - Prevents mission assignment for:
